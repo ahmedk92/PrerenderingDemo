@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2849961E2245763B00E4517A /* Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2849961D2245763B00E4517A /* Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf */; };
 		2876FBC622456CEE00374907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2876FBC522456CEE00374907 /* AppDelegate.swift */; };
 		2876FBC822456CEE00374907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2876FBC722456CEE00374907 /* ViewController.swift */; };
 		2876FBCB22456CEE00374907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2876FBC922456CEE00374907 /* Main.storyboard */; };
 		2876FBCD22456CEF00374907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2876FBCC22456CEF00374907 /* Assets.xcassets */; };
 		2876FBD022456CEF00374907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2876FBCE22456CEF00374907 /* LaunchScreen.storyboard */; };
+		2876FBD822456D2500374907 /* LabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2876FBD722456D2500374907 /* LabelModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2849961D2245763B00E4517A /* Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf; sourceTree = "<group>"; };
 		2876FBC222456CEE00374907 /* PrerenderingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrerenderingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2876FBC522456CEE00374907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2876FBC722456CEE00374907 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		2876FBCC22456CEF00374907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2876FBCF22456CEF00374907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2876FBD122456CEF00374907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2876FBD722456D2500374907 /* LabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		2876FBC422456CEE00374907 /* PrerenderingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2849961D2245763B00E4517A /* Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf */,
 				2876FBC522456CEE00374907 /* AppDelegate.swift */,
 				2876FBC722456CEE00374907 /* ViewController.swift */,
 				2876FBC922456CEE00374907 /* Main.storyboard */,
 				2876FBCC22456CEF00374907 /* Assets.xcassets */,
 				2876FBCE22456CEF00374907 /* LaunchScreen.storyboard */,
 				2876FBD122456CEF00374907 /* Info.plist */,
+				2876FBD722456D2500374907 /* LabelModel.swift */,
 			);
 			path = PrerenderingDemo;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				2876FBD022456CEF00374907 /* LaunchScreen.storyboard in Resources */,
 				2876FBCD22456CEF00374907 /* Assets.xcassets in Resources */,
 				2876FBCB22456CEE00374907 /* Main.storyboard in Resources */,
+				2849961E2245763B00E4517A /* Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			files = (
 				2876FBC822456CEE00374907 /* ViewController.swift in Sources */,
 				2876FBC622456CEE00374907 /* AppDelegate.swift in Sources */,
+				2876FBD822456D2500374907 /* LabelModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCX3Z4NU85;
 				INFOPLIST_FILE = PrerenderingDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCX3Z4NU85;
 				INFOPLIST_FILE = PrerenderingDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
